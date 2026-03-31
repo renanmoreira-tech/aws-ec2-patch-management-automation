@@ -53,3 +53,8 @@ variable "allowed_ssh_cidr" {
   type        = string
   default     = "0.0.0.0/0"
 }
+variable "patch_group" {
+  description = "Patch group name associated with the SSM patch baseline"
+  type        = string
+  default     = "linux-prod"
+}
