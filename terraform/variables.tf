@@ -47,7 +47,7 @@ variable "subnet_id_az3" {
   description = "Subnet ID for the third availability zone"
   type        = string
 }
-
+##adjuste this, never allowed_ssh_full
 variable "allowed_ssh_cidr" {
   description = "CIDR allowed to access instances over SSH"
   type        = string
