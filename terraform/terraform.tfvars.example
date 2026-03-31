@@ -8,3 +8,4 @@ subnet_id_az1    = "subnet-xxxxxxxxxxxxxxxxx"
 subnet_id_az2    = "subnet-xxxxxxxxxxxxxxxxx"
 subnet_id_az3    = "subnet-xxxxxxxxxxxxxxxxx"
 allowed_ssh_cidr = "0.0.0.0/0"
+PatchGroup = var.patch_group
