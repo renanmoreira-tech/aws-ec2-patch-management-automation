@@ -1,1 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
 
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Shell
+*.sh~
