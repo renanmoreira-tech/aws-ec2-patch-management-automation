@@ -38,7 +38,7 @@ resource "aws_instance" "app" {
     Name       = each.value.name
     Role       = "app"
     AutoPatch  = "true"
-    PatchGroup = "linux-prod"
+    PatchGroup = "var.patch_group"
     PatchWave  = each.value.patch_wave
   }
 }
